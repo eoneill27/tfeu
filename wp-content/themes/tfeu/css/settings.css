@@ -1,0 +1,15 @@
+html {
+	--column-width: 1300px;
+}
+
+body {
+
+	--paper: #fbf9f7;
+	--ink: #313131;
+/*	--ink: #6d6d6d;*/
+	--gray: #edebe7;
+	--sage: #879182;
+	--myrtle: #273620;
+	--accent: #02b3ff; /*deep sky blue*/
+	--background: #ffcf03; /*tangerine*/
+}

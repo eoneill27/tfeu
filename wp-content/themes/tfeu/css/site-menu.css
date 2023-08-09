@@ -1,0 +1,19 @@
+
+
+.site-menu ul {
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+}
+
+.menu-item {
+	padding: 5px;
+	margin-left: 5px;
+	color: var(--ink);
+}
+
+@media (min-width: 500px) {
+	.menu-item {
+		margin-left: 30px;
+	}
+}

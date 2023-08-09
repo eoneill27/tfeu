@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 590 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1.32422,0,0,4.5083,-71.5153,-143.939)">
+        <g id="Logo">
+            <g transform="matrix(0.755161,0,0,0.221813,16.5111,22.0649)">
+                <text x="48.963px" y="105.868px" style="font-family:'HelveticaNeue-Medium', 'Helvetica Neue', sans-serif;font-weight:500;font-size:86px;">TFEU</text>
+            </g>
+            <g transform="matrix(0.755161,0,0,0.221813,16.9682,22.0649)">
+                <text x="292.582px" y="70.168px" style="font-family:'HelveticaNeue-Medium', 'Helvetica Neue', sans-serif;font-weight:500;font-size:36px;">T<tspan x="309.934px 329.95px " y="70.168px 70.168px ">ea</tspan>chers&apos; Federation</text>
+                <g transform="matrix(36,0,0,36,593.362,107.212)">
+                </g>
+                <text x="292.582px" y="107.212px" style="font-family:'HelveticaNeue-Medium', 'Helvetica Neue', sans-serif;font-weight:500;font-size:36px;">Employees&apos; Union</text>
+            </g>
+        </g>
+    </g>
+</svg>
