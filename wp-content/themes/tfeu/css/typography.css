@@ -2,47 +2,47 @@
 /* convert font size to rem */
 
 .heyyou-voice {
-	font-family: "Poppins", "Helvetica", serif;
+	font-family: Helvetica, sans-serif;
 	font-size: clamp(20px, 5vw, 40px);
 	font-weight: 400;
 	line-height: 1.2;
 }
 
 .attention-voice {
-	font-family: "Poppins", "Helvetica", serif;
+	font-family: Helvetica, sans-serif;
 	font-size: clamp(18px, 4vw, 35px);
 	font-weight: 400;
 }
 
 .info-voice {
-	font-family: "Poppins", Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 	font-size: clamp(16px, 3vw, 18px);
 	font-weight: 300;
 }
 
 .reading-voice {
-	font-family: "Poppins", Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 1.4;
 	font-weight: 300;
 }
 
 .strong-voice {
-	font-family: "Poppins", Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 1.4;
 	font-weight: 500;
 }
 
 .page_item {
-	font-family: "Poppins", Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 1.4;
 	font-weight: 500;
 }
 
 .current_page_item {
-	font-family: "Poppins", Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 1.4;
 	font-weight: 500;
@@ -92,7 +92,7 @@ h3 + a {
 	margin-top: 15px;
 }
 
-li + li {
+li + li, a + a {
 	margin-top: 10px;
 }
 
