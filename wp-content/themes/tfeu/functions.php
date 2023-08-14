@@ -30,6 +30,32 @@ function getPageTemplate($path) {
   include( dirname(__FILE__) . '/templates/pages/' . $path . '.php' );
 }
 
+/* customize login logo */
+function my_login_logo() { ?>
+    <style type="text/css">
+        #login h1 a, .login h1 a {
+            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/tfeu-logo.svg);
+		height:65px;
+		width:320px;
+		background-size: 320px 65px;
+		background-repeat: no-repeat;
+        	padding-bottom: 30px;
+        }
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'my_login_logo' );
+
+/* direct to home page when clicking on login logo */
+function my_login_logo_url() {
+    return home_url();
+}
+add_filter( 'login_headerurl', 'my_login_logo_url' );
+
+function my_login_logo_url_title() {
+    return 'Your Site Name and Info';
+}
+add_filter( 'login_headertext', 'my_login_logo_url_title' );
+
 
 // register ACF blocks
 
