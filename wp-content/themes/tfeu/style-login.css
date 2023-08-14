@@ -1,0 +1,28 @@
+.login {
+	font-family: Futura, Helvetica, sans-serif;
+	background-color: #ffcf03;;
+}
+
+#loginform {
+	padding: 25px;
+	background-color: #fbf9f7;
+	box-shadow: -15px 15px #02b3ff;
+	margin-left: 15px;
+}
+
+#loginform input {
+	border-radius: 0;
+}
+
+#wp-submit {
+	background-color: salmon;
+}
+
+.login #nav {
+	padding-top: 25px;
+	padding-left: 0;
+}
+
+.login #backtoblog {
+	padding-left: 0;
+}
