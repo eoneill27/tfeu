@@ -1,49 +1,48 @@
 /* TYPOGRAPHY & SITE-WIDE SPACING */
-/* convert font size to rem */
 
 .heyyou-voice {
-	font-family: Helvetica, sans-serif;
-	font-size: clamp(20px, 5vw, 40px);
-	font-weight: 400;
+	font-family: Futura, Helvetica, sans-serif;
+	font-size: clamp(1.1rem, 9vw, 2rem);
+	font-weight: 500;
 	line-height: 1.2;
 }
 
 .attention-voice {
-	font-family: Helvetica, sans-serif;
-	font-size: clamp(18px, 4vw, 35px);
+	font-family: Futura, Helvetica, sans-serif;
+	font-size: clamp(1.1rem, 8vw, 1.5rem);
 	font-weight: 400;
 }
 
 .info-voice {
-	font-family: Helvetica, sans-serif;
-	font-size: clamp(16px, 3vw, 18px);
+	font-family: Futura, Helvetica, sans-serif;
+	font-size: clamp(1rem, 7vw, 1.25rem);
 	font-weight: 300;
 }
 
 .reading-voice {
-	font-family: Helvetica, sans-serif;
-	font-size: 14px;
+	font-family: Futura, Helvetica, sans-serif;
+	font-size: 1rem;
 	line-height: 1.4;
 	font-weight: 300;
 }
 
 .strong-voice {
-	font-family: Helvetica, sans-serif;
-	font-size: 14px;
+	font-family: Futura, Helvetica, sans-serif;
+	font-size: 1rem;
 	line-height: 1.4;
 	font-weight: 500;
 }
 
 .page_item {
-	font-family: Helvetica, sans-serif;
-	font-size: 14px;
+	font-family: Futura, Helvetica, sans-serif;
+	font-size: 1rem;
 	line-height: 1.4;
 	font-weight: 500;
 }
 
 .current_page_item {
-	font-family: Helvetica, sans-serif;
-	font-size: 14px;
+	font-family: Futura, Helvetica, sans-serif;
+	font-size: 1rem;
 	line-height: 1.4;
 	font-weight: 500;
 	color: salmon;
@@ -61,7 +60,7 @@ h1 + h2 {
 	margin-top: 20px;
 }
 
-h2 + h2, h2 + h3, h3 + p {
+h2 + h2, h3 + p {
 	margin-top: 10px;
 }
 
@@ -83,7 +82,9 @@ h3 + ul {
 }
 
 ul + h3, 
-ul + p {
+ul + p,
+h2 + ul,
+h2 + h3 {
 	margin-top: 20px;
 }
 
@@ -92,11 +93,30 @@ h3 + a {
 	margin-top: 15px;
 }
 
-li + li, a + a {
-	margin-top: 10px;
+a + a {
+	margin-top: 15px;
+}
+
+li + li {
+	margin-top: 5px;
 }
 
 a:hover {
 	
-	text-shadow: 0.5px 0 0 currentColor ;
+/*	text-shadow: 0.5px 0 0 currentColor ;*/
+/*	color: salmon;*/
+}
+
+li {
+/*	border: 1px solid black;*/
+	padding: var(--left-indent);
+}
+
+.heading-indent {
+	margin-left: var(--left-indent);
+}
+
+li:hover {
+	background-color: salmon;
+	color: white;
 }
