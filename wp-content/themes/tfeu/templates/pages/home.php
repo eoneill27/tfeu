@@ -75,11 +75,7 @@
 								$linkEmail = get_sub_field('link_email');
 						?>
 						<li class="info-voice">
-							<?php if($linkURL) { ?>
 								<a href="<?=$linkURL?>"><?=$linkName?></a>
-							<?php } else { ?>
-								<a href="mailto:<?=$linkEmail?>"><?=$linkName?></a>
-							<?php } ?>
 						</li>
 					<?php } } ?>
 					</ul>
