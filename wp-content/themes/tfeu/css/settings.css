@@ -1,5 +1,6 @@
 html {
-	--column-width: 1300px;
+	--column-width: 1150px;
+	--left-indent: 8px;
 }
 
 body {
@@ -13,3 +14,4 @@ body {
 	--accent: #02b3ff; /*deep sky blue*/
 	--background: #ffcf03; /*tangerine*/
 }
+
