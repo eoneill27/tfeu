@@ -5,7 +5,7 @@ wp_nav_menu(
 		'menu' => 'Site Menu',
 		'container' => 'nav',
 		'container_class' => 'site-menu',
-		'menu_class' => 'menu-item',
+		'menu_class' => 'strong-voice',
 	)
 );
 
