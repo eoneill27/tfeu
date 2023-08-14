@@ -124,7 +124,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	color: var(--ink);
 	position: sticky;
 	z-index: 5;
-	padding-top: 30px;
+	padding-top: 40px;
 }
 
 .site-header inner-column {
