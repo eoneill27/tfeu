@@ -20,16 +20,15 @@
 
 		<div id="home-top">
 			<div class="long-card">
-				<h2 class="heyyou-voice">Next event - <?=$eventName?></h2>
-				<h3 class="info-voice"><?=$eventDate?></h3>
-				<h3 class="info-voice"><?=$eventTime?></h3>
-				<h3 class="info-voice"><?=$eventLocation?></h3>
-				<p class="reading-voice"><?=$eventDescription?></p>
+				<h2 class="heyyou-voice heading-indent">Next event - <?=$eventName?></h2>
+				<h3 class="info-voice heading-indent"><?=$eventDate?> - <?=$eventTime?></h3>
+				<h3 class="info-voice heading-indent"><?=$eventLocation?></h3>
+				<p class="reading-voice heading-indent"><?=$eventDescription?></p>
 
 			</div>
 
 			<div class="long-card">
-				<h2 class="heyyou-voice">Current job postings</h2>
+				<h2 class="heyyou-voice heading-indent">Current job postings</h2>
 				<ul>
 		
 <?php }
@@ -65,7 +64,7 @@
 			?>
 
 				<div class="home-tile">
-					<h2 class="heyyou-voice"><?=$tileHeading?></h2>
+					<h2 class="heyyou-voice heading-indent"><?=$tileHeading?></h2>
 					<ul>
 						<?php
 						if(have_rows('tile_links')) {
@@ -73,9 +72,14 @@
 								the_row();
 								$linkName = get_sub_field('link_name');
 								$linkURL = get_sub_field('link_url');
+								$linkEmail = get_sub_field('link_email');
 						?>
 						<li class="info-voice">
-							<a href="<?=$linkURL?>"><?=$linkName?></a>
+							<?php if($linkURL) { ?>
+								<a href="<?=$linkURL?>"><?=$linkName?></a>
+							<?php } else { ?>
+								<a href="mailto:<?=$linkEmail?>"><?=$linkName?></a>
+							<?php } ?>
 						</li>
 					<?php } } ?>
 					</ul>
