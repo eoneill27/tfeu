@@ -27,7 +27,7 @@
 
 			</div>
 
-			<div class="long-card">
+<!-- 			<div class="long-card">
 				<h2 class="heyyou-voice heading-indent">Current job postings</h2>
 				<ul>
 		
@@ -52,7 +52,7 @@
 					<?php } ?>
 				</ul>
 			</div>
-		</div>
+ -->		</div>
 		<div id="home-bottom">
 			<?php 
 			if(have_rows('home_page_tile')) {
@@ -75,7 +75,7 @@
 								$linkEmail = get_sub_field('link_email');
 						?>
 						<li class="info-voice">
-								<a href="<?=$linkURL?>"><?=$linkName?></a>
+								<a href="<?=$linkURL?>" target="_blank"><?=$linkName?></a>
 						</li>
 					<?php } } ?>
 					</ul>
